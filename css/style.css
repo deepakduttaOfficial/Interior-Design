@@ -1,0 +1,219 @@
+/* Poppins font family  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --defaultPadding: 2rem 3rem;
+}
+
+body {
+  background: url(../images/bg.jpeg);
+  background-size: cover;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------- Navbar style ------------ */
+nav {
+  padding: var(--defaultPadding);
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  flex-grow: 1;
+}
+
+.brand > img {
+  height: 40px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.list-item {
+  margin: 0 5px;
+}
+
+.list-item-link {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+}
+
+.contact > i {
+  transform: rotate(-37deg);
+  font-size: 27px;
+}
+
+.contact-del {
+  margin-left: 10px;
+}
+
+.contact-del > h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact-del > h4 {
+  font-size: 14px;
+  font-weight: 5 00;
+}
+
+hr {
+  margin-left: 24px;
+  color: #ffffff;
+  height: 2px;
+  background-color: #ffffff;
+}
+/* ----------------------------------- */
+.body {
+  padding: var(--defaultPadding);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 15px 50px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 38px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.intro > h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+  line-height: 90px;
+  font-weight: 500;
+}
+
+.box {
+  position: relative;
+}
+
+.box-content {
+  background-color: rgba(48, 70, 87, 0.761);
+  padding: 20px;
+  width: 260px;
+  margin-top: 40px;
+}
+
+.box-icon {
+  padding: 5px 32px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-icon > i {
+  color: #000;
+  font-size: 30px;
+}
+
+.box-content > p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.pendulum {
+  position: relative;
+  left: 180px;
+  display: inline-block;
+}
+
+.stick {
+  height: 80px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.ball {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 80px;
+}
+
+.flex {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 32px;
+  left: 45rem;
+}
+
+.pendulum-1 {
+  position: relative;
+  /* left: 180px; */
+  display: inline-block;
+}
+
+.stick-1 {
+  width: 80px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  display: inline-block;
+  top: 85px;
+  position: relative;
+}
+
+.ball-1 {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: 78px;
+  top: 91px;
+}
