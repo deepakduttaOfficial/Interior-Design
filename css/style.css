@@ -14,9 +14,11 @@
 }
 
 body {
-  background: url(../images/bg.jpeg);
+  background: url(../images/bg.jpeg) no-repeat;
   background-size: cover;
   color: #ffffff;
+  max-width: 1600px;
+  margin: auto;
 }
 
 li {
@@ -32,6 +34,9 @@ nav {
   padding: var(--defaultPadding);
   display: flex;
   align-items: center;
+}
+.menu-icon {
+  display: none;
 }
 
 .brand {

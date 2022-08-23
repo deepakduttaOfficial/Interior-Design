@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1116px) {
+  .nav-list {
+    display: none;
+  }
+  .intro > h1 {
+    font-size: 40px;
+  }
+  .flex {
+    position: static;
+  }
+  #footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .body {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .stick,
+  .ball,
+  .pendulum-1,
+  hr {
+    display: none;
+  }
+  .intro {
+    text-align: center;
+  }
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+  }
+  .menu-icon > i {
+    font-size: 22px;
+  }
+  .menu-icon:hover {
+    background-color: rgb(235 239 246 / 6%);
+  }
+}
